@@ -3,8 +3,8 @@ credentials:
     aweder:
       email: alex.weder14@gmail.com
       name: Alex Weder
-      password: $2b$12$62fWKMASZhOfW4xDC5HX6OpBHsV6s4dQUwyh/942NjPqssCZh3AT. # To be replaced with hashed password
+      password: $2b$12$92la3Q0QzUbAclEkw38f7.nLV80OIU7WbAiRrCkHbGOtmUbrLWPi2 # To be replaced with hashed password
 cookie:
   expiry_days: 30
   key: random_signature_key # Must be string
-  name: random_cookie_name
+  name: cookie_name

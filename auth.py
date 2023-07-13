@@ -1,7 +1,7 @@
 import streamlit_authenticator as stauth
 from pathlib import Path
 
-hashed_passwords = stauth.Hasher(['abc']).generate()
+hashed_passwords = stauth.Hasher(['123']).generate()
 
 print(hashed_passwords)
 

@@ -1,0 +1,8 @@
+if authentication_status:
+        authenticator.logout('Logout', 'main', key='unique_key')
+        st.write(f'Welcome *{name}*')
+        st.title('Some Content')
+elif authentication_status is False:
+        st.error('Wrong Username/Password')
+elif authentication_status is None:
+        st.warning('Please enter your Username/Password')
